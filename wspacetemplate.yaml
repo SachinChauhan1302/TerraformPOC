@@ -1,0 +1,16 @@
+apiVersion: v2
+kind: WorkspaceGroup
+metadata:
+  name: MyworkSpaceGroup
+  organization: TestOrganizationPOC
+  baseurl: https://app.terraform.io/api/v2/
+spec:
+  - name: TestWorkSpacePOC
+    description: Trial workspace updated by webhook
+    variables:
+      - key: variable1
+        value: valuechanged
+        sensitive: false
+        category: terraform
+        hcl: false
+        description: my variable
