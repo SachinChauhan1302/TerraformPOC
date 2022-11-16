@@ -14,3 +14,9 @@ spec:
         category: terraform
         hcl: false
         description: my variable
+      - key: variable2
+        value: valuechanged2
+        sensitive: false
+        category: terraform
+        hcl: false
+        description: my variable
